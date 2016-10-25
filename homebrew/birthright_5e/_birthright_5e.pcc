@@ -1,0 +1,56 @@
+CAMPAIGN:Birthright 5e Conversion
+GAMEMODE:5e
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Birthright
+TYPE:Wizards of the Coast.Birthright
+PUBNAMELONG:My Homebrew
+PUBNAMESHORT:Birthright Campaign Setting 5e Conversion
+SOURCELONG:Birthright Campaign Setting 5e Conversion
+SOURCESHORT:B5E
+ISOGL:NO
+COPYRIGHT:panos.gotsis@gmail.com
+
+INFOTEXT:This is an adaptation of the Birthright character rules to the 5th edition of the Dungeons & Dragons game.
+
+#DATACONTROL:b5e__datacontrols.lst
+#ALIGNMENT:b5e__align.lst
+#STAT:b5e__stats.lst
+#SAVE:b5e__saves.lst
+
+
+#ABILITY:b5e_abilities.lst
+#ABILITYCATEGORY:b5e_abilitycategories.lst
+#BIOSET:b5e_biosettings.lst
+#CLASS:b5e_classes.lst
+#COMPANIONMOD:b5e_companionmods.lst
+DEITY:b5e_deities.lst
+#DOMAIN:b5e_domains.lst
+#EQUIPMENT:b5e_equip_arms_armor.lst
+#EQUIPMENT:b5e_equip_general.lst
+#EQUIPMOD:b5e_equipmods.lst
+#ABILITY:b5e_feats.lst
+#KIT:b5e_kits.lst
+#LANGUAGE:b5e_languages.lst
+#ARMORPROF:b5e_profs_armor.lst
+#SHIELDPROF:b5e_profs_shield.lst
+#WEAPONPROF:b5e_profs_weapon.lst
+#RACE:b5e_races.lst
+#SKILL:b5e_skills.lst
+#SPELL:b5e_spells.lst
+#TEMPLATE:b5e_templates.lst
+
+
+### You can hide TYPEs in the GUI - TYPEs are handy for organization, but some are only used for internal functions.
+#HIDETYPE:EQUIP|SpecialSuppressor
+#HIDETYPE:SKILL|Science
+#HIDETYPE:FEAT|Leadership
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want.
+#Options in the Open Source data are 35e, Modern, Pathfinder, Darwins_World_2.
+
+#If you use this framework to set up a dataset of your own, then you may want to rename the folder and files to something
+#different. Otherwise if you ever should install a newer version of PCGen into your existing directory or needed to re-install
+#your existing installation of PCGen, your changes would get overwritten and thus be lost.
