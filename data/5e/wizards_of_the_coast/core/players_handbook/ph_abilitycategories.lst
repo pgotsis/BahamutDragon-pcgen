@@ -9,33 +9,39 @@ ABILITYCATEGORY:Language					VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO										CATEG
 ABILITYCATEGORY:Spell						VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO										CATEGORY:Spell
 ABILITYCATEGORY:Weapon						VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO										CATEGORY:Weapon
 ABILITYCATEGORY:Class						VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO										CATEGORY:Class
+ABILITYCATEGORY:Race						VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO										CATEGORY:Race
 
 #
 ABILITYCATEGORY:Language Selection				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Language					CATEGORY:Language			TYPE:Language																																		DISPLAYLOCATION:Character
 
 
 # Ability Category						Visible		Editable?		Change Pool?	Base Pool number						Category of Object		Type of Object											Specific choices list																				Display Location
+# Used to handle different races using the same name from different campaigns
+ABILITYCATEGORY:Race Base					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:Race Base																																		DISPLAYLOCATION:Character
+
 ABILITYCATEGORY:Dwarf Subrace					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:DwarfSubrace																																		DISPLAYLOCATION:Character
-ABILITYCATEGORY:Dwarf Trait					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Dwarf Trait																																		DISPLAYLOCATION:Character
+ABILITYCATEGORY:Dwarf Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Dwarf Race Trait																																		DISPLAYLOCATION:Character
 ABILITYCATEGORY:Dwarf Artisan's Tool Proficiency	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability														ABILITYLIST:Tool Proficiency ~ Brewer's Supplies|Tool Proficiency ~ Mason's Tools|Tool Proficiency ~ Smith's Tools				DISPLAYLOCATION:Character
 
-
 ABILITYCATEGORY:Elf Subrace					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:ElfSubrace																																		DISPLAYLOCATION:Character
-ABILITYCATEGORY:Elf Trait					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Elf Trait																																		DISPLAYLOCATION:Character
+ABILITYCATEGORY:Elf Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Elf Race Trait																																		DISPLAYLOCATION:Character
 
 ABILITYCATEGORY:Halfling Subrace				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:HalflingSubrace																																	DISPLAYLOCATION:Character
-ABILITYCATEGORY:Halfling Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Halfling Trait																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Halfling Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Halfling Race Trait																																	DISPLAYLOCATION:Character
 
 ABILITYCATEGORY:Human Ethnicity				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Human Ethnicity																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Human Rule Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:Human Rule Selection																																DISPLAYLOCATION:Character
-ABILITYCATEGORY:Human Trait					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Human Trait																																		DISPLAYLOCATION:Character
+ABILITYCATEGORY:Human Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Human Race Trait																																		DISPLAYLOCATION:Character
 
-ABILITYCATEGORY:Dragonborn Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Dragonborn Trait																																	DISPLAYLOCATION:Character
-ABILITYCATEGORY:Gnome Trait					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Gnome Trait																																		DISPLAYLOCATION:Character
+ABILITYCATEGORY:Dragonborn Race Trait			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Dragonborn Race Trait																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Gnome Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Gnome Race Trait																																		DISPLAYLOCATION:Character
 ABILITYCATEGORY:Gnome Subrace					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:GnomeSubrace																																		DISPLAYLOCATION:Character
-ABILITYCATEGORY:Half-Elf Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Half-Elf Trait																																	DISPLAYLOCATION:Character
-ABILITYCATEGORY:Half-Orc Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Half-Orc Trait																																	DISPLAYLOCATION:Character
-ABILITYCATEGORY:Tiefling Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Tiefling Trait																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Half-Elf Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Half-Elf Race Trait																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Half-Orc Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Half-Orc Race Trait																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Tiefling Race Trait				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Tiefling Race Trait																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Tiefling Subrace				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal			TYPE:Tiefling Subrace																																	DISPLAYLOCATION:Character
+
+
 
 ABILITYCATEGORY:Half-Elf Stat Choice			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Internal																ABILITYLIST:Half-Elf Stat Choice																		DISPLAYLOCATION:Character
 
@@ -71,7 +77,7 @@ ABILITYCATEGORY:Nature Domain Skill				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	
 ABILITYCATEGORY:Arcane Tradition				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Wizard Arcane Tradition																																DISPLAYLOCATION:Character
 ABILITYCATEGORY:Roguish Archetype				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Roguish Archetype																																	DISPLAYLOCATION:Character
 
-ABILITYCATEGORY:Martial Archetype				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Martial Archetype																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Martial Archetype				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Martial Archetype.Fighter Martial Archetype																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Fighting Style				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Fighting Style																																	DISPLAYLOCATION:Character
 
 ABILITYCATEGORY:Maneuver Selection				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Fighter_Maneuver				CATEGORY:Special Ability	TYPE:Maneuver Selection																																	DISPLAYLOCATION:Character
@@ -139,6 +145,11 @@ ABILITYCATEGORY:Sorcerer Cantrip				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		PO
 ABILITYCATEGORY:Warlock Cantrip				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Warlock_Cantrip				CATEGORY:Internal			TYPE:Warlock Cantrip																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Wizard Cantrip				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Wizard_Cantrip				CATEGORY:Internal			TYPE:Wizard Cantrip																																	DISPLAYLOCATION:Character
 
+ABILITYCATEGORY:Cantrip Choice				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Cantrip_Choice				CATEGORY:Internal			TYPE:Cantrip Choice																																	DISPLAYLOCATION:Character
+	
+
+
+
 ABILITYCATEGORY:Magic Initiate Choice			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Magic_Initiate				CATEGORY:Special Ability	TYPE:Magic Initiate																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Bard Magic Initiate Spell			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Bard_Magic_Initiate_Spell			CATEGORY:Internal			TYPE:BardMagicInitiateSpell																																DISPLAYLOCATION:Character
 ABILITYCATEGORY:Cleric Magic Initiate Spell		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Cleric_Magic_Initiate_Spell		CATEGORY:Internal			TYPE:ClericMagicInitiateSpell																																DISPLAYLOCATION:Character
@@ -164,7 +175,7 @@ ABILITYCATEGORY:Multiattack Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO
 ABILITYCATEGORY:Superior Hunter's Defense Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Superior Hunter's Defense Selection																														DISPLAYLOCATION:Character
 
 ABILITYCATEGORY:Elemental Discipline			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Elemental Discipline Selection																															DISPLAYLOCATION:Character
-ABILITYCATEGORY:Monastic Tradition				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Monastic Tradition																																	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Monastic Tradition				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Monastic Tradition.Monk Monastic Tradition																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Draconic Ancestry				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Draconic_Ancestry				CATEGORY:Special Ability	TYPE:Draconic Ancestry																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Sorcerous Origin				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Sorcerous_Origin				CATEGORY:Special Ability	TYPE:Sorcerous Origin																																	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Metamagic					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Metamagic					CATEGORY:Special Ability	TYPE:Metamagic																																		DISPLAYLOCATION:Character
@@ -172,7 +183,7 @@ ABILITYCATEGORY:Eldritch Invocation				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	
 ABILITYCATEGORY:Otherworldly Patron				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_OtherworldlyPatron				CATEGORY:Special Ability	TYPE:Otherworldly Patron																																DISPLAYLOCATION:Character
 ABILITYCATEGORY:Pact Boon					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO										CATEGORY:Special Ability	TYPE:Pact Boon																																		DISPLAYLOCATION:Character
 
-ABILITYCATEGORY:Sacred Oath					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Sacred_Oath					CATEGORY:Special Ability	TYPE:Sacred Oath																																		DISPLAYLOCATION:Character
+ABILITYCATEGORY:Sacred Oath					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Sacred_Oath					CATEGORY:Special Ability	TYPE:Sacred Oath.Paladin Sacred Oath																																		DISPLAYLOCATION:Character
 ABILITYCATEGORY:Ranger Archetype				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Ranger_Archetype				CATEGORY:Special Ability	TYPE:Ranger Archetype																																	DISPLAYLOCATION:Character
 
 ABILITYCATEGORY:Favored Terrain				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		POOL:POOL_Favored_Terrain				CATEGORY:Special Ability	TYPE:Favored Terrain																																	DISPLAYLOCATION:Character
@@ -306,3 +317,7 @@ ABILITYCATEGORY:Familiar Support	VISIBLE:YES	EDITABLE:YES	EDITPOOL:NO						CATEG
 ABILITYCATEGORY:Organization		VISIBLE:YES	EDITABLE:YES	EDITPOOL:NO						CATEGORY:Special Ability	TYPE:Organization		DISPLAYLOCATION:MISC
 
 
+ABILITYCATEGORY:Homebrew Changes		VISIBLE:YES	EDITABLE:YES	EDITPOOL:NO						CATEGORY:Special Ability	TYPE:Homebrew Changes		DISPLAYLOCATION:MISC
+
+ABILITYCATEGORY:Rules			VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES		FRACTIONALPOOL:NO								CATEGORY:Special Ability			TYPE:Rules
+ABILITYCATEGORY:Cantrip Choice					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Internal			TYPE:CantripChoice	DISPLAYLOCATION:Rules	

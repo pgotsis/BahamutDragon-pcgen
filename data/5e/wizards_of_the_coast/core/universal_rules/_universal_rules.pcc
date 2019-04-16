@@ -4,10 +4,15 @@ KEY:Universal Rules (5e)
 TYPE:Core_Rule_Universal
 #GAMEMODE:5e	Leave commented out, this is loaded by the Core Rules of the System
 
+RACE:*/_universal/races.lst
+
+SIZE:ur__sizes.lst
 ABILITY:ur_abilities.lst
 CLASS:ur_classes.lst
 TEMPLATE:ur_templates.lst
 DATACONTROL:ur__datacontrols.lst
+
+HIDETYPE:FEAT|AC_Tracker_Choice|AC_Tracker_SelectionMade|SpecialQuality
 
 
 INFOTEXT:Supports 6.6.1

@@ -1,5 +1,6 @@
 # CVS $Revision$ $Author$ -- Sun Dec  8 22:17:49 2013 -- reformated by prettylst.pl v1.50 (build 22352)
 CAMPAIGN:Monster Compendium: Monsters of Faerun
+KEY:Monster Compendium - Monsters of Faerun
 GAMEMODE:35e|Bahamut35e
 RANK:6
 TYPE:Wizards of the Coast.Campaign Setting.Forgotten Realms
@@ -12,6 +13,10 @@ SOURCESHORT:mon
 SOURCEDATE:2001-02
 ISOGL:NO
 COPYRIGHT:Wizards of the Coast
+# COVER should be cover_gameMode_pub_book.file
+COVER:../../../../../_artwork/cover_35e_wotc_mon.jpg
+# LOGO should be logo_pub.file
+LOGO:../../../../../_artwork/logo_wotc.png
 
 # LST Files
 
@@ -23,7 +28,9 @@ LANGUAGE:mon_languages.lst
 RACE:mon_races.lst
 SPELL:mon_spells.lst
 TEMPLATE:mon_templates.lst
-
+ABILITY:mon_ability.lst
+ABILITYCATEGORY:mon_abilitycategory.lst
+#TODO require MM1 and MM2
 INFOTEXT:Supports 6.4.1
 # ENTRY DATE: 2015-01 (Unknown)
 # LST MONKEY: Bahamut

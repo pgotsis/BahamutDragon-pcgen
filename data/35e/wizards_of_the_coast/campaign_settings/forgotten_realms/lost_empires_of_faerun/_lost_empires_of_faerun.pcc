@@ -16,15 +16,27 @@ SOURCESHORT:LE
 SOURCEDATE:2005-02
 ISOGL:NO
 
-INFOTEXT:Forgotten Realms - Lost Empires of Faerun. Only Feats, Skills and Templates present.
+INFOTEXT:Forgotten Realms - Lost Empires of Faerun.
+# COVER should be cover_gameMode_pub_book.file
+COVER:../../../../../_artwork/cover_35e_wotc_le.jpg
+# LOGO should be logo_pub.file
+LOGO:../../../../../_artwork/logo_wotc.png
 
 # Do not remove the EXTRAFILE comment.
 #EXTRAFILE:OGL.txt
 
 
+FORWARDREF:DOMAIN|Planning
 
 # Basics
 ABILITY:le_feats.lst
+ABILITY:le_class_abilities.lst
+#ABILITY:le_class_abilities_serveas.lst
+ABILITYCATEGORY:le_abilitycategories.lst
+CLASS:le_classes.lst
+
+SPELL:le_spells.lst
+
 SKILL:le_skills.lst
 TEMPLATE:le_templates.lst
 
